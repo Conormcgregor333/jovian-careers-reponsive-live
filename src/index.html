@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>
+        My First Web Page
+    </title>
+  <link  rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="navbar">
+        <!--Adding link to an image-->
+     <a href="https://jovian.com/program/jovian-full-stack-developer-bootcamp" target="_blank"> <img id="logo" src="https://th.bing.com/th/id/OIP.tFSsPWHQA1Fx2EZUpzEySQAAAA?pid=ImgDet&rs=1"></a>
+      
+      
+    </div>
+    <img id="banner" src="https://cdn.quotesgram.com/img/30/92/1020921971-Careers9640488Small.jpg",alt="banner" height="350">
+    <h1>About Jovian</h1>
+    <div id="about">
+        <div id="description">
+            <p style="margin-top:0">Jovian was Roman emperor from June 363 to February 364.
+                As part of the imperial bodyguard,
+                he accompanied Emperor Julian on
+                his campaign against the Sasanian
+                Empire and following the latter's
+                death, Jovian was hastily declared
+                emperor by his soldiers. With the
+                army exhausted, provisions running
+                low, and unable to cross the Tigris,
+                he sought peace with the Sasanids on humiliating terms. After his arrival at Edessa, Jovian was petitioned by
+                bishops over doctrinal issues concerning Christianity. His return to Constantinople would be cut short by his
+                death at Dadastana. Jovian reigned eight months.</p>
+           </div>
+           <div id="image">
+            <img src="https://th.bing.com/th/id/OIP.ai74hU8_xquB2Rhn4mZ5qAHaEm?pid=ImgDet&rs=1" alt =
+            "team"height="250">
+        </div>
+
+    </div>
+   <div id="opp">
+     <p>We offer 2 courses-
+    <ol>
+        <li><a href="https://jovian.com/program/jovian-full-stack-developer-bootcamp" target="_blank">web dev course</a></li>
+        <li><a href="https://jovian.com/program/jovian-data-science-bootcamp" target="_blank">data science course</a></li>
+    </ol>
+    </p>
+   </div>
+    <!-- Creating Button using table -->
+  <!--   <div ><table id="but"><tr class="button"><th><a href="https://jovian.com/learn" target="_blank">Apply</a></th></tr></table></div>-->
+   
+        
+   
+    
+    <h2 style="text-align: center;">Job Opportunities</h2>
+    <div id="jobs">
+      <table  id="jobs-table">
+        <tr class="jobs-header">
+            <th rowspan="2">Job Title</th>
+            <th colspan="2">Loacation</th>
+            <th rowspan="2">Salary</th>
+            <th rowspan="2">Posted On</th>
+        </tr>
+        <tr class="jobs-header"><th>City</th><th>Country</th></tr>
+        <tr class="jobs-data">
+            <td>Frontend Developer</td>
+            <td>Bengaluru</td>
+            <td>India</td>
+            <td>₹12,00,000</td>
+            <td>Mar 3,2023</td>
+        </tr>
+        <tr class="jobs-data">
+            <td>Full Stack Developer</td>
+            <td>New Delhi</td>
+            <td>India</td>
+            <td>₹15,00,000</td>
+            <td>Feb 1,2023</td>
+        </tr>
+        <tr class="jobs-data">
+            <td>Data Scientist</td>
+            <td>San Francisco</td>
+            <td>USA</td>
+            <td>$175,000</td>
+            <td>Dec 22,2022</td>
+        </tr>
+        <tr class="jobs-data">
+            <td>Machine Learning Engineer</td>
+            <td colspan="2" style="text-align: center;">Remote</td>
+            
+            <td>$80,000</td>
+            <td>Sep 19,2022</td>
+        </tr>
+      </table>
+      <!-- Creating Form-->
+<div id="application">
+<h2>Submit Your Application</h2>
+<form action="https://formbold.com/s/oYqVz"
+method="POST">
+   <div> <label for="name">Name</label></div>
+   <div> <input type="text" id="name" name="name" required placeholder="sam doe"></div>
+    <!-- type determines what will be the type of input that must be filled in the form box for name
+    name- this is something that has the value whatever we enter in the form . This value is snd to the server etc.
+     required- this specifies that this particular form box must be filled in order to submit the form or else it will prompt a message-"please fill this field"-->
+     <div><label id="email">Email</label></div>
+    <div><input type="email" id="email" name="email" required placeholder="spvhg@gmail.com"></div>
+   <div><label for="phone number">Phone Number</label></div>
+    <div><input type="number" id="phone number" name="phone number" required placeholder="+917987067945"></div>
+    <!--placeholder- it fills out the number with the above value. it goes away when we start filling the phone number-->
+   <div><label id="dob">Date of Birth</label></div>
+   <div><input type="date" id="dob" id="dob"required></div>
+<div><label for="position">Position Applied For</label></div>
+<div><select id="position" name="position" required>
+   <option>Select Position</option>
+    <option >FullStack Developer</option>
+    <option>Fronend Developer</option>
+    <option>Backend Developer</option>
+    <option>Data Scientist</option>
+    <option>ML Engineer</option>
+</select></div>
+<div><label>Upload Resume</label></div>
+<div><input type="file" id="file-input" name="file-input" accept=".pdf,.doc,.docx" required ></div>
+<div><label>Cover Letter</label></div>
+<div><textarea rows="5"  placeholder="Explain what makes you suitable for this job."></textarea></div>
+
+<input type="checkbox" required>
+<label>I agree to the terms and conditions.</label>
+<div><input type="submit"></div>
+</form>
+
+</div>
+
+    <div id="footer">
+        <ul id="lists">
+            <li id="li" ><a href="https://jovian.com/learn" target="_blank">Courses</a></li>
+            <li  id="li"><a href="https://jovian.com/learn" target="_blank">Programs</a></li>
+            <li  id="li"><a href="https://jovian.com/learn" target="_blank">Videos</a></li>
+
+        </ul>
+        <div style="text-align: center;color: gray;">©Jovian,2023</div>
+    </div>
+</body>
+
+
+</html>

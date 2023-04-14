@@ -1,0 +1,138 @@
+
+body{margin:0;
+padding:0;
+font-family: sans-serif;}
+h1{text-align:center;}
+a{
+    text-decoration:none;
+}/*to remove underline from all the links or anchor tags*/
+#banner{
+    width:100%;
+    object-fit: cover ;
+}
+
+#navbar{
+    margin:0;
+   
+}
+#about{
+    display:flex;
+    max-width:800px;
+    margin:0 auto;
+    padding:8px;
+}
+h1{
+    text-transform: uppercase;
+}
+#description{
+    width:50%;
+    padding-right:8px;
+    text-align: justify;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#image{
+    height:50%;width:50%;
+}
+#logo{
+    height:20px;width:100px;
+    padding-top:5px;
+}
+#opp{
+    max-width:800px;
+    margin:0 auto;
+    padding:0 8px;
+}
+#jobs{
+    max-width:800px;
+    margin:0 auto;
+    padding:0 8px;
+}
+.apply{
+    margin-bottom: 14px;
+    float:right;
+}
+#footer{
+    background-color: rgb(221, 221, 244);
+    font-size: 0.875rem;
+
+}
+#lists{
+    list-style: none;
+    text-align: center;
+}
+#li{
+    display: inline;
+    margin:0 16px;
+}
+#jobs-table{
+    width:100%;
+    border:1px solid brown;
+    border-collapse: collapse;
+   
+}
+
+.jobs-header th{
+    border:1px solid gray;
+    padding:8px;
+    background-color: rgb(222, 242, 242);
+    text-align: center;
+}
+.jobs-data td{
+padding:8px;
+border:1px solid gray;
+}
+#jobs-table tr:nth-child(odd){
+    background-color: ghostwhite;
+}
+
+/*to change the color of link when hovering over it*/
+a:hover,a:focus{
+    color:coral;
+}
+
+
+/*creating button using table -css*/
+/*
+.button th{
+    background-color: rgb(229, 243, 243);
+    border: 2px solid black;
+}
+#but{
+    float:right;
+}*/
+#application{
+    max-width:800px;
+    margin:0 auto;
+    padding:0 8px;
+}
+#application label{
+    font-weight: 600;
+}
+#application input,select,textarea{
+    padding:4px;
+    
+}
+#application textarea{
+    width:100%;
+    font-family: sans-serif;
+}
+#application div{
+    margin:8px;
+}
+h2{
+    text-align: center;
+}
+#application input[type="checkbox"]{
+    width:16px;
+    height:16px;
+}
+#application input[type="submit"]{
+    width:120px;
+    height:30px;
+    background-color: rgb(72, 72, 237);
+    color:white;
+}
+#application input[type="submit"]:hover,input[type="submit"]:focus{
+    background-color: rgb(190, 181, 237);
+    color:black;
+}
